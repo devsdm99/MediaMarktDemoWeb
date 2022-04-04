@@ -12,6 +12,7 @@ import { setProducts, setSelectedProduct, setLoading } from '../redux/actions/pr
 import { setDisplayDetailModal } from '../redux/actions/modalActions';
 import { setFilterText } from '../redux/actions/paginatorActions';
 import { InputText } from 'primereact/inputtext';
+
 export const Products = () => {
     const loading = useSelector(state => state.allProducts.loading);
     const products = useSelector(state => state.allProducts.products);
