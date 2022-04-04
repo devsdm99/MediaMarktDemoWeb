@@ -38,7 +38,7 @@ export const Products = () => {
     };
 
     const createNewProduct = () => {
-        navigate('/products/create');
+        navigate('/product/create');
     };
 
     const footer = (
